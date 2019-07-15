@@ -17,8 +17,7 @@ class SearchController extends Controller
                 'headers' => [
                     'Content-type' => 'application/json',
                     'Accept' => 'application/json',
-                'Authorization' => 'Bearer ' . $this->token_f(),
-
+                    'Authorization' => 'Bearer ' . $this->token_f(),
                 ],
             ]);
             // $response = $http->get(env('API_URL').'/api/getUsers');
@@ -39,10 +38,6 @@ class SearchController extends Controller
                 'Accept' => 'application/json',
                 'Authorization' => 'Bearer ' . $this->token_f(),
             ],
-            'form_params' => [
-                'name' => 'ywqywyqwq',
-                'bank_id' => 'dqdqidq',
-            ]
         ]);
         // $response = $http->get(env('API_URL').'/api/getUsers');
         return $response = $request->getBody()->getContents();

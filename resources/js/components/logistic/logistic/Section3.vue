@@ -21,7 +21,7 @@
     <h3 style="font-size: 15px;color: #858585;text-align: left" class="vc_custom_heading vc_custom_1458565978208">WANT TO KNOW MORE?</h3>
     <div class="wpb_text_column wpb_content_element">
         <div class="wpb_wrapper">
-            <p>Do you want to integrate your systems with ours? <a href="http://courierapp.test" target="_blank" style="color: #0076c0;">Sign up for a free profile now!</a>  Having a profile <b>does not obligate you to do or send anything.</b></p>
+            <p>Do you want to integrate your systems with ours? <a href="/register" style="color: #0076c0;">Sign up for a free profile now!</a>  Having a profile <b>does not obligate you to do or send anything.</b></p>
         </div>
     </div>
 </div>

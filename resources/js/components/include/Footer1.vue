@@ -57,8 +57,8 @@
                                     <div>
                                         <div class="input-group">
                                             <!-- <span class="input-group-addon"><i class="fa fa-info-circle"></i></span> -->
-                                            <input type="text" name="cargo_tracking_code_text" placeholder="Courier Tracking Number" style="background: transparent;border-radius: 6px;color: #fff;width: 70%;">
-                                            <input type="submit" value="Track" style="background: transparent;border: 1px solid #fff;">
+                                            <input type="text" name="cargo_tracking_code_text" placeholder="Courier Tracking Number" style="background: transparent;border-radius: 6px;color: #fff;width: 70%;" v-model="search" @keyup.enter="redirect">
+                                            <input type="submit" value="Track" style="background: transparent;border: 1px solid #fff;" @click="redirect">
                                         </div>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@ export default {
     },
     data() {
         return {
-            // offsetTop: 0,
+            search: '',
             // duration: 1000,
             // easing: "easeInOutCubic",
             // easings: Object.keys(easings),
@@ -104,7 +104,17 @@ export default {
         // },
         scrollEvent() {
             eventBus.$emit("scrollEvent");
-        }
+        },
+
+        redirect() {
+            eventBus.$emit("searchEvent", this.search);
+            this.$router.push({
+                name: "search",
+                params: {
+                    search: this.search
+                }
+            });
+        },
     }
 };
 </script>

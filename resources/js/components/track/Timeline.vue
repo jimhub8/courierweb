@@ -1,6 +1,6 @@
 <template>
-<v-container id="scroll-target" style="background: #f8fafc;max-height: 80vh" class="scroll-y" > 
-    <v-timeline>
+<v-container id="scroll-target" style="background: #f8fafc;max-height: 80vh;margin-top: 160px;" class="scroll-y">
+    <v-timeline v-if="timeline.length > 0">
         <v-timeline-item v-for="status in timeline" :key="status.id" :color="status.color" small>
             <template v-slot:opposite>
                 <span class="`headline font-weight-bold ${status.color}--text`" v-text="status.created_at"></span>
@@ -14,6 +14,9 @@
             </div>
         </v-timeline-item>
     </v-timeline>
+    <div v-else>
+        <h3 class="text-center" style="color: red;">No events</h3>
+    </div>
 </v-container>
 </template>
 
@@ -67,7 +70,7 @@ export default {
                 })
         }
         // col() {
-            
+
         //     const previousColor = this.timeline[0].color
 
         //     while (previousColor === color) {
@@ -88,10 +91,18 @@ export default {
         this.getStatus(this.$route.params.timeline)
         // this.timeline = this.$route.params.timeline
     },
-    
+
     beforeRouteLeave(to, from, next) {
         eventBus.$emit("loaderEvent");
         next();
     },
 }
 </script>
+
+
+<style scoped>
+    .v-timeline {
+    width: 80vh;
+    margin: auto;
+}
+</style>
