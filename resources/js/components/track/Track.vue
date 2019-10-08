@@ -14,7 +14,7 @@ And, by doing so you can use our new range of delivery options so you can get yo
                     <div class="cargo-tracking-form querypageversion">
                         <div>
                             <h3 style="color:#0ba6dd;">COURIER TRACKING</h3>
-                            <p style="color:#7c7c7c;">You can find out the location of your products by entering the cargo tracking number.<i>Cargo tracking form test code: BL75837619</i></p>
+                            <p style="color:#7c7c7c;">You can find out the location of your products by entering the cargo tracking number.<i>Cargo tracking form test code: BL_00000001</i></p>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                 <i class="fa fa-info-circle"></i
@@ -44,7 +44,7 @@ And, by doing so you can use our new range of delivery options so you can get yo
                                     <!-- <li><span style="color: #858585; font-weight: 500;">Proin tincidunt, justo vel molestie accumsan.</span></li> -->
                                 </ol>
                                 <p>Running a business is stressful enough. When you run a company that routinely ships documents or products to clients or customers you will experience even more stress. An excellent way to lower the stress is to use Boxleo Courier on every single item shipped out by your company. Our tracking technology benefits companies and clients alike.</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ export default {
   },
   methods: {
     redirect() {
-      search: "", 
+      search: "",
       eventBus.$emit("searchEvent", this.search);
       this.$router.push({
         name: "search",

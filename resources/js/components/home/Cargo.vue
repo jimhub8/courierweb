@@ -6,7 +6,7 @@
                 <h3 style="color:rgb(0, 118, 192);">COURIER TRACKING</h3>
                 <p style="color:#45575e;">You can find out the location of your products by entering the courier tracking
                     number.
-                    <p>Courier tracking form test code: <strong>BL75837619</strong></p>
+                    <p>Courier tracking form test code: <strong>BL_00000001</strong></p>
                 </p>
                 <div class="input-group"> <span class="input-group-addon" style="background: #0076c0"><i class="fa fa-info-circle"></i></span>
                     <input type="text" v-model="search" placeholder="Courier Tracking Number"  @keyup.enter="redirect" style="width: 70%; margin-left: -60px;">
@@ -39,7 +39,7 @@ export default {
         }
     }
 };
-</script>   
+</script>
 
 <style scoped>
 .cargo-tracking-form-wrapper.white {

@@ -62,14 +62,14 @@
                             </div>
                         </router-link>
 
-                        <a href="/blog/create" class="v-list__tile v-list__tile--link" target="_blank">
+                        <!-- <a href="/blog/create" class="v-list__tile v-list__tile--link" target="_blank">
                             <div class="v-list__tile__action">
                                 <i aria-hidden="true" class="icon material-icons">book</i>
                             </div>
                             <div class="v-list__tile__content">
                                 <div class="v-list__tile__title">Blog</div>
                             </div>
-                        </a>
+                        </a> -->
                     </v-card>
                 </template>
             </v-list>
@@ -84,12 +84,12 @@
           >
         </v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-tooltip bottom style="margin-right: 10px;">
+                <!-- <v-tooltip bottom style="margin-right: 10px;">
                     <v-btn icon class="mx-0" @click="openShipment" slot="activator">
                         <v-icon color="white darken-2" large>add</v-icon>
                     </v-btn>
                     <span>Add Shipment</span>
-                </v-tooltip>
+                </v-tooltip> -->
                 <v-divider vertical></v-divider>
                 <Notifications :user="user"></Notifications>
                 <v-divider vertical></v-divider>

@@ -6,9 +6,6 @@
 use Illuminate\Http\Request;
 
 
-
-
-
 Route::get('/', 'HomeController@boxleo')->name('boxleo');
 Route::get('/boxleo', 'HomeController@boxleo')->name('boxleo')->middleware('verified');
 
@@ -44,22 +41,22 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/apilogin', function () {
         $query = http_build_query([
-            'client_id' => 3, // Replace with Client ID
-            'redirect_uri' => 'http://127.0.0.1:8001/callback',
+            'client_id' => env('API_CLIENT_ID'), // Replace with Client ID
+            'redirect_uri' => env('API_REDIRECT_URL'),
             'response_type' => 'code',
             'scope' => ''
         ]);
 
-        return redirect('http://127.0.0.1:8000/oauth/authorize?'.$query);
+        return redirect(env('API_URL') . '/oauth/authorize?'.$query);
     });
 
     Route::get('/callback', function (Request $request) {
-        $response = (new GuzzleHttp\Client)->post('http://127.0.0.1:8000/oauth/token', [
+        $response = (new GuzzleHttp\Client)->post(env('API_URL') . '/oauth/token', [
             'form_params' => [
                 'grant_type' => 'authorization_code',
-                'client_id' => 3, // Replace with Client ID
-                'client_secret' => 'GXaMlo7nVBwd3yJ6Jdk44uctf8f26g5S9u2RabjZ', // Replace with client secret
-                'redirect_uri' => 'http://127.0.0.1:8001/callback',
+                'client_id' => env('API_CLIENT_ID'), // Replace with Client ID
+                'client_secret' => env('API_CLIENT_KEY'), // Replace with client secret
+                'redirect_uri' => env('API_REDIRECT_URL'),
                 'code' => $request->code,
             ]
         ]);
@@ -69,15 +66,6 @@ Route::group(['middleware' => ['auth']], function () {
         return redirect('/admin/#/shipments');
     });
 
-    Route::get('/todos', function () {
-        $response = (new GuzzleHttp\Client)->get('http://127.0.0.1:8000/api/todos', [
-            'headers' => [
-                'Authorization' => 'Bearer '.session()->get('token.access_token')
-            ]
-        ]);
-
-        return json_decode((string) $response->getBody(), true);
-    });
 
 
 Route::get('/admin', 'HomeController@admin')->name('admin');

@@ -1,7 +1,7 @@
 /*! =========================================================
  *
  Material Bootstrap Wizard - V1.0.1
- 
+
 *
 * =========================================================
 *
@@ -30,9 +30,9 @@
  *
  *               Buddha Bless:  "No Bugs"
  *
- * ========================================================= */                  
+ * ========================================================= */
  body{
-    font-family: 'Source Sans'; 
+    font-family: 'Source Sans';
 }
 
 
@@ -113,9 +113,9 @@
     background: #dff0d8 !important;
 }
 
-.theme--light .navigation-drawer 
-.list__tile:not(.list__tile--active), 
-.application .theme--light.navigation-drawer 
+.theme--light .navigation-drawer
+.list__tile:not(.list__tile--active),
+.application .theme--light.navigation-drawer
 .list__tile:not(.list__tile--active) {
     text-decoration: none !important;
 }
@@ -342,3 +342,30 @@ div.dataTables_wrapper div.dataTables_filter input {
 .site-sub-content {
     margin-top: -150px !important;
 }
+
+@media (max-width: 767px) {
+.header-wrapper .logo-area .header-search {
+        display: none !important
+    }
+    .header-logo img {
+        width: 110px !important;
+    }
+    .header-wrapper .logo-area {
+        margin-top: -30px !important;
+    }
+
+    .page-content-banner {
+        margin-top: 230px !important;
+    }
+}
+
+
+@media (max-width: 1270px) {
+    .footer-newsletter input[type="email"] {
+        width: 150px;
+    }
+    .footer-newsletter input[type="submit"] {
+       font-size: 8px !important;
+    }
+    }
+

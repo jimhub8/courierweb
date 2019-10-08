@@ -58,6 +58,7 @@ class ShipmentController extends Controller
 // ])
         // return $request->all();
     // return $this->token_f();
+    
         try {
             $client = new Client;
             $request = $client->request('POST', ENV('API_URL') . '/api/shipment', [
