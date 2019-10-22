@@ -27,9 +27,12 @@
                                     <br>{{ shipment.client_email }}
                                     <br><address>{{ shipment.client_address }}</address>
                                 </div>
-                                <div class="cargo-tracking-list-form-col"><img
+                                <div class="cargo-tracking-list-form-col">
+                                  <!--   <img
                                 src="/storage/web/static_qr_code_without_logo.png"
-                                height="100" width="100" alt="Barcode"></div>
+                                height="100" width="100" alt="Barcode">-->
+                                <qrcode :value="shipment.airway_bill_no" :options="{ width: 200 }"></qrcode>
+                                </div>
                                 </div>
                                 <div class="cargo-tracking-list-form-header themethreecolor hidden-xs">
                                     <div class="cargo-tracking-list-form-col">Origin</div>
@@ -131,7 +134,7 @@ export default {
                 .catch((error) => {
                     // this.loading = false
                     console.log(error);
-                    
+
                     // if (error.response.status === 500) {
                     //     eventBus.$emit('errorEvent', error.response.statusText)
                     //     return
@@ -146,7 +149,7 @@ export default {
             this.$router.push({
                 name: "search",
                 params: {
-                    search: data 
+                    search: data
                 }
             });
         },

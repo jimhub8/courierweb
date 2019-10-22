@@ -19,11 +19,12 @@
         "lodash": "^4.17.5",
         "material-design-icons-iconfont": "^3.0.3",
         "popper.js": "^1.12",
-        "vue": "^2.5.17"
+        "vue": "^2.6.10"
     },
     "dependencies": {
         "@casl/ability": "^2.4.2",
         "@casl/vue": "^0.4.3",
+        "@chenfengyuan/vue-qrcode": "^1.0.1",
         "chart.js": "^2.7.2",
         "jspdf": "^1.4.1",
         "laravel-echo": " ^1.4.0",

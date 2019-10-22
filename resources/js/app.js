@@ -16,12 +16,16 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import '@fortawesome/fontawesome-free/css/all.css' // Ensure you are using css-loader
 import 'vuetify/dist/vuetify.min.css'
 // import CKEditor from '@ckeditor/ckeditor5-vue';
+import VueQrcode from '@chenfengyuan/vue-qrcode';
 
 // import VueLazyload from 'vue-lazyload'
 // import JsonExcel from 'vue-json-excel'
 
 // Vue.use(CKEditor);
 // Vue.use(VueLazyload)
+Vue.component(VueQrcode.name, VueQrcode);
+
+
 Vue.use(Vuetify)
 Vue.use(VueRouter)
 Vue.use(VueScrollTo, {
