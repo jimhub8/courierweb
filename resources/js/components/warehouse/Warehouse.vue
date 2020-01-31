@@ -91,7 +91,7 @@
                 <img src="" alt="">
             </v-flex>
             </v-layout>
-            
+
 
         </div>
 
@@ -106,7 +106,7 @@
                                 <span class="wow fadeIn" style="color: rgb(0, 118, 192); font-size: 36px;"  data-wow-duration="700ms" data-wow-delay="300ms">
                                     <strong style="font-size: 28px;">Why Use Boxleo Courier & Fulfillment Services Ltd?</strong></span></p>
                     <p style="text-align: left;">When dealing with warehousing operations, or any part of a supply chain, efficiency is crucial. Even small savings in one element can translate into huge savings when applied to hundreds or even thousands of products. This sort of agility lets businesses become more competitive, expand, offer new products or services to customers, and more.</p>
-                    <p style="text-align: left;">Getting the most effective and efficient warehousing solutions means skilled workers, a warehouse management system, integration with the logistics and fulfillment network, and other involved steps. For a small business, it can be daunting to try and set up these elements from scratch, which is why <a href="http://courierapp.test" target="_blank" style="color: #0076c0;">third-party companies</a> like Boxleo Courier exist. We provide professional, advanced warehousing storage solutions so you can focus on your core business and growth.</p>
+                    <p style="text-align: left;">Getting the most effective and efficient warehousing solutions means skilled workers, a warehouse management system, integration with the logistics and fulfillment network, and other involved steps. For a small business, it can be daunting to try and set up these elements from scratch, which is why <b>third-party companies</b> like Boxleo Courier exist. We provide professional, advanced warehousing storage solutions so you can focus on your core business and growth.</p>
             </v-flex>
             <v-flex sm6 offset-sm-1>
                 <div class="wpb_column vc_column_container vc_col-sm-12">

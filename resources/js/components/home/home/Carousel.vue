@@ -18,7 +18,7 @@
                 <div class="carousel-caption d-md-block">
                     <div class="row" style="margin-top: -130px;">
                         <div class="col-md-8">
-                            <img src="/storage/web/slider1-layer2.png" alt="" style="margin-top: 150px;margin-left: -300px;width: 400px;" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="500ms">
+                            <img src="/storage/web/slider1-layer2.png" alt="" style="margin-top: 160px;margin-left: -300px;width: 400px;" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="500ms">
                             <Cargo></Cargo>
                         </div>
                         <div class="col-md-3">
@@ -32,7 +32,7 @@
                 <div class="carousel-caption d-md-block">
                     <div class="row" style="margin-top: -130px;">
                         <div class="col-md-8">
-                            <img src="/storage/web/slider1-layer2.png" alt="" style="margin-top: 150px;margin-left: -300px;width: 400px;" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="500ms">
+                            <img src="/storage/web/slider1-layer2.png" alt="" style="margin-top: 160px;margin-left: -300px;width: 400px;" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="500ms">
                             <Cargo></Cargo>
                         </div>
                         <div class="col-md-3">

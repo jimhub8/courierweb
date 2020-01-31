@@ -50,7 +50,7 @@
             <div data-v-488543a7="" class="contact-information themethreecolor">
                 <div data-v-488543a7="" class="contact-information-row">
                     <div data-v-488543a7="" class="contact-information-icon"><i data-v-488543a7="" class="fa fa-map-marker"></i></div>
-                    <div data-v-488543a7="" class="contact-information-content"><strong data-v-488543a7="">Address:</strong>Leomar Court, 2nd Floor, Suite No.8 </div>
+                    <div data-v-488543a7="" class="contact-information-content"><strong data-v-488543a7="">Address:</strong>Timshack House, Ngong Road, 5th Floor, Office Suite 5F </div>
                 </div>
                 <div data-v-488543a7="" class="contact-information-row">
                     <div data-v-488543a7="" class="contact-information-icon"><i data-v-488543a7="" class="fa fa-phone"></i></div>

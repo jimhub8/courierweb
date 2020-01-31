@@ -295,6 +295,12 @@ div.dataTables_wrapper div.dataTables_filter input {
 	cursor: pointer;
 	margin-left: -60px;
 }
+
+
+.cargo-tracking-form.slideversionv1 .input-group-addon {
+    position: relative !important;
+}
+
 /* .application--wrap {
     min-height: 0vh !important;
 } */
@@ -374,4 +380,3 @@ div.dataTables_wrapper div.dataTables_filter input {
     .header-wrapper .menu-area {
         padding-bottom: 120px !important;
 }
-

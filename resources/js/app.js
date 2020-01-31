@@ -106,7 +106,7 @@ import myReports from './components/admin/reports/Reports.vue';
 
 const routes = [
     // { path: '/example', component: exampleComponent },
-    { path: '/', component: myHome },
+    { path: '/', component: myHome, name: 'home' },
     { path: '/about', component: myAbout },
     { path: '/integrations', component: myLogistic },
     { path: '/warehouse', component: myWarehouse },

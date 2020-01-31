@@ -13,8 +13,8 @@ And, by doing so you can use our new range of delivery options so you can get yo
                 <div class="wpb_wrapper">
                     <div class="cargo-tracking-form querypageversion">
                         <div>
-                            <h3 style="color:#0ba6dd;">COURIER TRACKING</h3>
-                            <p style="color:#7c7c7c;">You can find out the location of your products by entering the cargo tracking number.<i>Cargo tracking form test code: BL_00000001</i></p>
+                            <h3 style="color:#0ba6dd;text-align: center;">COURIER TRACKING</h3>
+                            <p style="color:#7c7c7c;">You can find out the location of your products by entering the cargo tracking number.<i>Cargo tracking form test code: BL00000001</i></p>
                             <div class="input-group">
                                 <span class="input-group-addon">
                                 <i class="fa fa-info-circle"></i

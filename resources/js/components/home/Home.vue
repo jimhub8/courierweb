@@ -384,14 +384,14 @@
             tincidunt neque, sit amet fermentum est facilisis ac.</p>
     </div>
 
-    <v-layout wrap style="background: #0cde81 url('/storage/web/form-bg.png');align-items: center;height: 400px;background-attachment: fixed;background-position: center;padding: 10px;height: 100%;">
+    <v-layout wrap style="background: #0cde81 url('/storage/web/form-bg.png');align-items: center;height: 400px;background-attachment: fixed;background-position: center;padding: 10px;height: 100%;" id="quatation">
         <v-flex sm5>
             <img src="/storage/web/box.png" alt="">
         </v-flex>
         <v-flex sm7 style="color: #fff;text-align: right">
             <div class="wpb_wrapper"> <p style="text-align: right; margin-bottom: 0px; font-size: 49px; line-height: 44px; letter-spacing: -0.25px;">
-                <span style="color: #ffffff;">get a&nbsp;quote</span><br> 
-                <span style="color: #ffffff;"> 
+                <span style="color: #ffffff;">get a&nbsp;quote</span><br>
+                <span style="color: #ffffff;">
                 <strong>for&nbsp;best price</strong>
                 </span><br> <span style="color: #ffffff;"> <strong>and service</strong>
                 </span>

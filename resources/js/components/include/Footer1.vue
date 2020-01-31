@@ -4,7 +4,7 @@
 
     <v-layout wrap style="align-items: center;" class="container">
         <v-flex sm2>
-            <img src="/storage/img/client1.jpg" alt="" style="width: 140px !important;height: 100px !important;">
+            <img src="/storage/img/client1.jpeg" alt="" style="width: 140px !important;height: 100px !important;">
         </v-flex>
             <v-flex sm2>
                 <img src="/storage/img/client2.jpg" alt="" style="width: 140px !important;height: 100px !important;">

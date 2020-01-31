@@ -31,7 +31,7 @@ margin-left: 60px !important;
 <template>
     <v-app id="inspire">
         <v-layout row wrap style="height: 100vh;">
-            <v-flex sm8 style="background: url(/storage/signup-background.jpeg);background-attachment: fixed;">
+            <v-flex sm8 style="background: url(/storage/signup-background.jpeg);background-attachment: fixed;background-position: center;">
                     {{--  <h2><strong style="color: #fff; margin: auto">Get your products in your customers hands faster</strong></h2>  --}}
                     <div class="container" style="margin: auto;width: 85%;">
 

@@ -18,7 +18,12 @@
                                                 <div class="contact-information alternative">
                                                     <div class="contact-information-row contact-information-custom-row">
                                                         <div class="contact-information-icon"><i class="fa fa-clock-o" style="color:#0ba6dd;"></i></div>
-                                                        <div class="contact-information-content"><strong>Weekday Working Hours:</strong> 07:00 - 18:00<br><strong>Saturday Working Hours:</strong> 08:30 - 12:30</div>
+                                                        <div class="contact-information-content"><strong>Weekday Working Hours:</strong>
+                                                            <small style="font-size: 13px">08:00 - 17:00</small>
+                                                            <br><strong>Saturday Working Hours:</strong>
+                                                            <small style="font-size: 13px">08:30 - 14:30</small>
+
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -34,7 +39,8 @@
                                                 <div class="contact-information alternative">
                                                     <div class="contact-information-row contact-information-custom-row">
                                                         <div class="contact-information-icon"><i class="fa fa-map-marker" style="color:#0ba6dd;"></i></div>
-                                                        <div class="contact-information-content"><strong>Head Office:</strong><small> Leomar Court, 2nd Floor, Suite No.8</small> <br><strong>Mombasa Office:</strong><small> Epic Business Park, Nyali</small></div>
+                                                        <div class="contact-information-content"><strong>Head Office:</strong>
+                                                            <small> Timshack House, Ngong Road, 5th Floor, Office Suite 5F</small> <br><strong>Mombasa Office:</strong><small> Epic Business Park, Nyali</small></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -55,8 +61,8 @@
 <script>
 import Section2 from "./Section1";
 export default {
-  components: {
-    Section2
-  }
+    components: {
+        Section2
+    }
 };
 </script>

@@ -73,7 +73,7 @@
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="contact-information-content">
-                                    <strong>Address:</strong>Leomar Court, 2nd Floor, Suite No.8 </div>
+                                    <strong>Address:</strong>Timshack House, Ngong Road, <br> 5th Floor, Office Suite 5F </div>
                             </div>
                             <div class="contact-information-row">
                                 <div class="contact-information-icon">

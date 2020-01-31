@@ -82,27 +82,27 @@
                     <ul>
                         <li>
                             <a href="https://web.facebook.com/BoxleoCourier/" class="facebook" title="Facebook" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/company/boxleo-courier-fulfillment-services/" class="googleplus" title="LinkedIn" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/BoxleoCourier/" class="instagram" title="Instagram" target="_blank">
-                            <i class="fab fa-instagram"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/BoxleoCourier/" class="twitter" title="Twitter" target="_blank">
-                            <i class="fab fa-twitter"></i>
+                                <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://api.whatsapp.com/send?phone=0743332743" class="twitter" title="whatsapp " target="_blank">
-                            <i class="fab fa-whatsapp"></i>
+                                <i class="fab fa-whatsapp"></i>
                             </a>
                         </li>
                         <li id="login" v-if="user" class="user-list">
@@ -145,7 +145,7 @@
                 </li> -->
             </ul>
         </div>
-        <div class="logo-area" style="background: #f8fafc; border-bottom: 1px solid #3333331a;margin-top: -40px;height: 150px;">
+        <div class="logo-area" style="background: #f8fafc; border-bottom: 1px solid #3333331a;margin-top: -50px;height: 130px;">
             <div class="container">
                 <div class="header-logo">
                     <router-link to="/" class="site-logo">
@@ -155,17 +155,20 @@
                 <div class="header-contact">
                     <div class="header-contact-email">
                         <h2>Write Us For Your Orders</h2>
-                        <div class="content"> <i class="fa fa-envelope"></i> <span>info@boxleo.co.ke</span></div>
+                        <div class="content"> <i class="fa fa-envelope"></i> <span>
+                                <a href="mailto:info@boxleo.co.ke" target="_blank">info@boxleo.co.ke</a>
+                            </span></div>
                     </div>
                     <div class="header-contact-phone"> <i class="fa fa-phone"></i>
                         <div class="content">
-                            <h2>Call Us For Your Orders</h2> <span><span>+ 254</span> 743 332 743</span>
+                            <h2>Call Us For Your Orders</h2> <span>
+                                <a href="tel:+254743332743"><span>+254</span> 743 332 743</a></span>
                         </div>
                     </div>
                 </div>
                 <div class="header-search">
                     <div role="search" class="search-form">
-                        <input type="text" placeholder="SEARCH" v-model="search" class="search"  @keyup.enter="redirect">
+                        <input type="text" placeholder="SEARCH" v-model="search" class="search" @keyup.enter="redirect">
                         <button @click="redirect">
                             <i class="fa fa-search" style=" margin-top: 15px;margin-left: -25px;"></i>
                         </button>
@@ -318,7 +321,10 @@ export default {
         });
 
         eventBus.$on("quoteEvent", data => {
-            window.scrollTo(1000, 1300);
+            timeout = setTimeout(() => {
+            window.scrollTo(0, 3650);
+            }, 200);
+            // window.scrollTo('#quatation', 1000);
             // VueScroll.scrollTo("#quote", 3437);
         });
     }
@@ -361,10 +367,12 @@ nav {
 #login a:hover {
     background: none;
 }
+
 .header-wrapper .logo-area .header-contact .header-contact-phone i {
     margin-right: -60px !important;
     margin-top: 0px !important;
 }
+
 /* .menu-area #profile .v-chip {
     float: right;
     margin-top: -70px;

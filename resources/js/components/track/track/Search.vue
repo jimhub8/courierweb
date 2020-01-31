@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="cargo-tracking-list-form-col">
                                         <strong class="mobile-text">Cargo Delivery
-                                Date</strong>{{ shipment.delivery_date }}</div>
+                                Date</strong>{{ shipment.derivery_date }}</div>
                                 </div>
                                 <div class="cargo-tracking-list-form-header themethreecolor hidden-xs">
                                     <div class="cargo-tracking-list-form-col">Qty</div>
@@ -69,9 +69,9 @@
                                     <div class="cargo-tracking-list-form-col">
                                         <strong class="mobile-text">Weight</strong>{{ shipment.weight }}
                                     </div>
-                                    <!-- <div class="cargo-tracking-list-form-col">
-                                        <strong class="mobile-text">Height</strong>359
-                                    </div> -->
+                                    <div class="cargo-tracking-list-form-col">
+                                        <strong class="mobile-text">height</strong>{{ shipment.height }}
+                                    </div>
                                     <div class="cargo-tracking-list-form-col">
                                         <strong class="mobile-text">Shipping Status</strong>{{ shipment.status }}
                                     </div>

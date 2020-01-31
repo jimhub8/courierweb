@@ -10,14 +10,14 @@
         </p>
     </div>
     <v-divider></v-divider>
-    <div class="vc_empty_space" style="height: 59px"><span class="vc_empty_space_inner"></span></div>
+    <div class="vc_empty_space" style="height: 19px"><span class="vc_empty_space_inner"></span></div>
     <div class="icon-list">
         <div class="icon-list-number" style="border-color:#0ba6dd;color:#0ba6dd;"><span>2.</span></div>
         <h3 style="color:#0ba6dd;">What happens after I've placed a booking?</h3>
         <p style="color:#a3a3a3;">After you’ve placed a booking, the consignment will be automatically posted to the selected carrier.</p>
     </div>
     <v-divider></v-divider>
-    <div class="vc_empty_space" style="height: 35px"><span class="vc_empty_space_inner"></span></div>
+    <div class="vc_empty_space" style="margin-top: -30px;"><span class="vc_empty_space_inner"></span></div>
     <div class="vc_tta-container" data-vc-action="collapse">
         <div class="vc_general vc_tta vc_tta-accordion vc_tta-color-white vc_tta-style-classic vc_tta-shape-rounded vc_tta-o-shape-group vc_tta-controls-align-left vc_tta-o-no-fill clearfix faq-accordion">
             <div class="vc_tta-panels-container">
@@ -47,7 +47,7 @@
                         <div class="vc_tta-panel-body" style="">
                             <div class="wpb_text_column wpb_content_element vc_custom_1458664357726">
                                 <div class="wpb_wrapper">
-                                    <p>You can call us from Monday to Friday, 07:00 - 18:00 and on Saturday from 08:30 - 12:30. We are closed on Sunday.</p>
+                                    <p>You can call us from Monday to Friday, 08:00 - 17:00 and on Saturday from 08:30 - 14:30. We are closed on Sunday.</p>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                         <div class="vc_tta-panel-body">
                             <div class="wpb_text_column wpb_content_element vc_custom_1458664357726">
                                 <div class="wpb_wrapper">
-                                    <p>Yes! You can use Boxleo to receive a quote from one of our specially selected partners. You can use the „Request Custom Quote” button to send us detailed information about your shipment.
+                                    <p>Yes! You can use Boxleo to receive a quote from one of our specially selected partners. You can use the “request Custom Quote” button to send us detailed information about your shipment.
                                     </p>
                                 </div>
                             </div>

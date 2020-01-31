@@ -27,11 +27,11 @@
                                     <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
                                         <a href="/#/medical">Medical Courier</a>
                                     </li>
-                                    
+
                                     <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
                                         <a href="/#/refrigerated">Refrigerated Transport</a>
                                     </li>
-                                    
+
                                     <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
                                         <a href="/order">Order Fulfillment</a>
                                     </li>
@@ -39,9 +39,9 @@
                                         <a href="/#/packaging">Packaging Services</a>
                                     </li>
                                     <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                                        <a href="/">Air Fleight Services</a> 
+                                        <a href="/">Air Fleight Services</a>
                                     </li>
-                                </ul> 
+                                </ul>
                                 <!-- <i class="fa fa-angle-down mobile-caret"></i> -->
                             </li>
                             <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34">
@@ -107,7 +107,7 @@
                 <div class="header-contact">
                     <div class="header-contact-email">
                         <h2>Write Us For Your Orders</h2>
-                        <div class="content"> <i class="fa fa-envelope"></i> <span>info@boxleo.co.ke</span></div>
+                        <div class="content"> <i class="fa fa-envelope"></i> <span><a href="mailto:info@boxleo.co.ke" target="_blank">info@boxleo.co.ke</a></span></div>
                     </div>
                     <div class="header-contact-phone"> <i class="fa fa-phone"></i>
                         <div class="content">

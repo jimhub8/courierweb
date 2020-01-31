@@ -11,7 +11,7 @@
                 <div class="page-content">
                     <article id="post-57" class="post-57 page type-page status-publish has-post-thumbnail hentry">
                         <div class="page-content-bottom">
-                            
+
                             <div class="vc_row wpb_row vc_row-fluid container vc_custom_1459343264192">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
@@ -20,8 +20,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
-
 
                             <div class="vc_row wpb_row vc_row-fluid vc_custom_1458642773746 vc_row-has-fill">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -30,7 +28,7 @@
                                             <h1 style="color: #fff !important;">GET STARTED WITH BOXLEO TODAY.</h1>
                                             <p>Request a quote to begin your shipment & fulfillment success story</p>
                                             <v-btn flat color="white" style="border-radius: 20px; border: 1px solid #fff;" @click="scroll">
-                                                <router-link to="/" style="color: #fff;">get a quote</router-link>
+                                                get a quote
                                             </v-btn>
                                         </div>
                                     </div>
@@ -102,8 +100,23 @@ export default {
     },
     methods: {
         scroll() {
+            // alert('test')
+            this.$router.push({
+                name: "home",
+            });
             eventBus.$emit('quoteEvent')
-        }
+        },
+
+        redirect(proId) {
+            // this.proId = this.$route.params.id
+            this.$router.push({
+                name: "details",
+                params: {
+                    id: proId
+                }
+            });
+            this.getProduct();
+        },
     }
 };
 </script>
