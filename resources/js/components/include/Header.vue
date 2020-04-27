@@ -6,7 +6,7 @@
         <div class="menu-area" style="max-height: 90px; padding-top: 0; padding-bottom: 0; background: #0076c0;">
             <div class="container">
                 <nav class="navbar">
-                    <div class="navbar-header">
+                    <div class="navbar navbar-header ">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div>
                     <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                         <ul id="menu-menu" class="nav navbar-nav">
@@ -101,7 +101,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone=0743332743" class="twitter" title="whatsapp " target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=+254743332743" class="twitter" title="whatsapp " target="_blank">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
                         </li>

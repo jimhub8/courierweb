@@ -13,7 +13,7 @@ class SearchController extends Controller
         // return $request->search;
         try {
             $client = new Client;
-            $request = $client->request('POST', ENV('API_URL') . '/api/apiSearch/' . $request->search, [
+            $request = $client->request('GET', ENV('API_URL') . '/api/apiSearch/' . $request->search, [
                 'headers' => [
                     'Content-type' => 'application/json',
                     'Accept' => 'application/json',

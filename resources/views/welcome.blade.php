@@ -1,4 +1,4 @@
-{{--  @extends('layouts.app') 
+{{--  @extends('layouts.app')
 @section('content')
 
 <my-header></my-header>
@@ -11,7 +11,7 @@
 <my-footer></my-footer>
 @endsection  --}}
 
-@extends('layouts.app') 
+@extends('layouts.app')
 @section('content') @auth
 <my-header :user="{{ json_encode($auth_user) }}"></my-header>
 <transition name="fade">

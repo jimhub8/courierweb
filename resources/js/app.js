@@ -55,6 +55,9 @@ Vue.use(VueScrollTo, {
 
 // import myFooter from './components/include/Footer.vue';
 import myHeader from './components/include/Header.vue';
+import myMobile from './components/include/mobile';
+
+
 import myHeader1 from './components/include/Header1.vue';
 import myFooter from './components/include/Footer1.vue';
 import myHome from './components/home/Home1.vue';
@@ -155,7 +158,7 @@ const app = new Vue({
         myTransport, myTestimonial, myFaqs, mySearch, myTimeline, myMedical,
         myBlog, myArticle, myFridge, myPackage, myOrder, myFleight, my404, my405, my500,
         myHeader, myFooter, myHeader1, mySubscribers, myPolicy, myTerms,
-        myRinder, myShipment, myProfile, Dashboard, myadminHeader, myReports,
+        myRinder, myShipment, myProfile, Dashboard, myadminHeader, myReports,  myMobile
         //  myUser, myRoles
 
     },

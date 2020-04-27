@@ -93,7 +93,7 @@
                                     </div>
                                     <div class="cargo-tracking-list-form-col">
                                         <strong class="mobile-text">Payment
-                                Mode</strong>Credit Card</div>
+                                Mode</strong>Cash on delivery</div>
                                 </div>
                                 <div class="cargo-tracking-list-form-header themethreecolor one-column hidden-xs">
                                     <div class="cargo-tracking-list-form-col">Additional Note</div>

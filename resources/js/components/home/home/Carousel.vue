@@ -3,7 +3,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/storage/web/offer.jpg" class="d-block w-100" alt="..." style="height: 75vh;">
+                <img src="/storage/web/airline.png" class="d-block w-100" alt="..." style="height: 75vh;">
                 <div class="carousel-caption d-md-block">
                     <div class="row">
                         <div class="col-md-8" style="margin-top: -130px;">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <img src="/storage/web/truck2.jpg" class="d-block w-100" alt="..." style="height: 75vh;">
                 <div class="carousel-caption d-md-block">
                     <div class="row" style="margin-top: -130px;">
@@ -26,9 +26,9 @@
                         </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             <div class="carousel-item">
-                <img src="/storage/web/truck2.jpg" class="d-block w-100" alt="..." style="height: 75vh;">
+                <img src="/storage/web/warehouse.png" class="d-block w-100" alt="..." style="height: 75vh;">
                 <div class="carousel-caption d-md-block">
                     <div class="row" style="margin-top: -130px;">
                         <div class="col-md-8">

@@ -363,6 +363,19 @@ div.dataTables_wrapper div.dataTables_filter input {
     .page-content-banner {
         margin-top: 230px !important;
     }
+
+
+.navbar {
+    position: relative !important;
+}
+
+.header-wrapper .header-social-media ul {
+height: 100px !important;
+    position: fixed !important;
+    margin-top: -30px !important;
+    margin-left: 100px !important;
+}
+
 }
 
 
@@ -380,3 +393,4 @@ div.dataTables_wrapper div.dataTables_filter input {
     .header-wrapper .menu-area {
         padding-bottom: 120px !important;
 }
+
