@@ -37,17 +37,6 @@
                                         <p style="margin-bottom: 11px;"><span style="color: #ffffff;">Imagination…what we can easily see is only a small percentage of what is possible! We fuel your logistics chain by offering possibility in every direction. </span></p>
                                         <p style="margin-bottom: 0px;"><span style="color: #ffffff;"> At Boxleo Courier & Fulfillment Services, quality never goes out of style as we take pride in serving our customers safely and efficiently.</span></p>
                                     </div>
-<h2 style="color:white">Our Charges</h2>
-                            <a href="http://bcourier.jim/charges_download" style="margin:0 20px;" target="_blank">
-                                <v-tooltip bottom>
-                                    <template v-slot:activator="{ on }">
-                                        <v-btn icon v-on="on" slot="activator" class="mx-0" color="primary">
-                                            <i color="info" class="fas fa-file-pdf"></i>
-                                        </v-btn>
-                                    </template>
-                                    <span>Download Charges PDF</span>
-                                </v-tooltip>
-                            </a>
                                 </div>
                             </div>
                         </div>

@@ -4,12 +4,23 @@
         <div>
             <div class="cargo-tracking-form-wrapper white" style="margin-left: -100px;width: 100%;background: #ffffffb5 !important;">
                 <h3 style="color:rgb(0, 118, 192);">COURIER TRACKING</h3>
+                <!-- <h2 style="color:white">Our Charges</h2>
+                <a href="http://bcourier.jim/charges_download" style="margin:0 20px;" target="_blank">
+                    <v-tooltip bottom>
+                        <template v-slot:activator="{ on }">
+                            <v-btn icon v-on="on" slot="activator" class="mx-0" color="primary">
+                                <i color="info" class="fas fa-file-pdf"></i>
+                            </v-btn>
+                        </template>
+                        <span>Download Charges PDF</span>
+                    </v-tooltip>
+                </a> -->
                 <p style="color:#45575e;">You can find out the location of your products by entering the courier tracking
                     number.
                     <p>Courier tracking form test code: <strong>BL00000001</strong></p>
                 </p>
                 <div class="input-group"> <span class="input-group-addon" style="background: #0076c0"><i class="fa fa-info-circle"></i></span>
-                    <input type="text" v-model="search" placeholder="  Courier Tracking Number"  @keyup.enter="redirect" style="width: 70%; margin-left: -60px;">
+                    <input type="text" v-model="search" placeholder="  Courier Tracking Number" @keyup.enter="redirect" style="width: 70%; margin-left: -60px;">
                     <!-- <input type="submit" value="Track"></div> -->
                     <v-btn :color="color" style="border: 1px solid;border-radius: 20px;color:#fff;" @click="redirect">Search</v-btn>
                 </div>
