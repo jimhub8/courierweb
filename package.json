@@ -25,7 +25,7 @@
         "@casl/ability": "^2.4.2",
         "@casl/vue": "^0.4.3",
         "@chenfengyuan/vue-qrcode": "^1.0.1",
-        "chart.js": "^2.7.2",
+        "chart.js": "^2.9.4",
         "jspdf": "^1.4.1",
         "laravel-echo": " ^1.4.0",
         "v-viewer": "^1.4.0",
